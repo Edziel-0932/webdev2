@@ -1,56 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="maindashboard.css" />
-  </head>
-  <body>
-    <div class="main-dashboard">
-      <div class="div">
-        <div class="overlap">
-          <div class="ellipse"></div>
-          <div class="text-wrapper">Profile</div>
-        </div>
-        <div class="overlap-group">
-          <div class="overlap-2">
-            <img class="rectangle" src="https://c.animaapp.com/mfjvgpzv4SAP2V/img/rectangle-20.svg" />
-            <img
-              class="element"
-              src="https://c.animaapp.com/mfjvgpzv4SAP2V/img/1c2497d1-6114-4519-8a47-01c594bddd2c-removebg-preview-2.png"
-            />
-            <div class="text-wrapper-2">Search E- Waste</div>
-            <img class="search" src="https://c.animaapp.com/mfjvgpzv4SAP2V/img/search.svg" />
-          </div>
-          <p class="p">Welcome To E - Ways, User</p>
-        </div>
-        <img class="img" src="https://c.animaapp.com/mfjvgpzv4SAP2V/img/rectangle-88.svg" />
-        <div class="overlap-3">
-          <div class="rectangle-2"></div>
-          <div class="ellipse-2"></div>
-          <div class="ellipse-3"></div>
-          <div class="ellipse-4"></div>
-          <div class="ellipse-5"></div>
-          <div class="ellipse-6"></div>
-          <div class="ellipse-7"></div>
-          <div class="ellipse-8"></div>
-        </div>
-        <div class="text-wrapper-3">Discover</div>
-        <div class="overlap-4">
-          <div class="rectangle-3"></div>
-          <div class="text-wrapper-4">+</div>
-        </div>
-        <img class="rectangle-4" src="https://c.animaapp.com/mfjvgpzv4SAP2V/img/rectangle-88-1.svg" />
-        <div class="text-wrapper-5">E - Ways</div>
-        <div class="overlap-group-2">
-          <div class="text-wrapper">FAQ</div>
-          <div class="text-wrapper-6">Help</div>
-        </div>
-        <div class="overlap-5">
-          <div class="text-wrapper-7">Contact</div>
-          <div class="text-wrapper">Home</div>
-        </div>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="maindashboard.css">
+</head>
+
+<body>
+  <header>
+    <div class="Logo">E-Ways</div>
+
+    <nav>
+      <a href="maindashboard.html">Home</a>
+      <a href="tutorialmanagement.html">Tutorial</a>
+      <a href="marketplace.html">Market</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="help.html">Help</a>
+    </nav>
+
+    <div class="actions">
+      <div class="Profile"><a href="userprofile.html">Profile</a></div>
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Manage Your E-Waste Responsibly</h1>
+      <p>Join us in reducing electronic waste by learning, disposing, and recycling safely.</p>
+      <div class="hero-buttons">
+        <button class="btn orange">Learn More</button>
+        <button class="btn green">Start Now</button>
       </div>
     </div>
-  </body>
+    <div class="hero-image">
+      <img src="ewaste-illustration.png" alt="E-Waste Illustration">
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="cat-card green">
+      <h3>Sorting</h3>
+      <p>How to separate plastics, metals, and reusable parts.</p>
+    </div>
+    <div class="cat-card orange">
+      <h3>Dismantling</h3>
+      <p>Safe ways to dismantle electronics without harm.</p>
+    </div>
+    <div class="cat-card pink">
+      <h3>Storage</h3>
+      <p>Best practices for temporary storage of e-wastes.</p>
+    </div>
+    <div class="cat-card blue">
+      <h3>Recycling</h3>
+      <p>Learn recycling methods and eco-friendly solutions.</p>
+    </div>
+  </section>
+
+  <section class="products">
+    <h2>Popular Guides</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="sorting.png" alt="Sorting">
+        <h4>E-Waste Sorting Guide</h4>
+        <p>Learn how to sort your e-waste effectively.</p>
+        <button class="btn green">Start Tutorial</button>
+      </div>
+      <div class="product-card">
+        <img src="dismantling.png" alt="Dismantling">
+        <h4>Safe Dismantling</h4>
+        <p>Step-by-step dismantling instructions.</p>
+        <button class="btn green">Start Tutorial</button>
+      </div>
+      <div class="product-card">
+        <img src="storage.png" alt="Storage">
+        <h4>Storage Basics</h4>
+        <p>How to safely store e-waste until disposal.</p>
+        <button class="btn green">Start Tutorial</button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function logout() {
+      sessionStorage.clear();
+      localStorage.clear();
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+
 </html>

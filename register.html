@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="rstyle.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="right-panel">
+                <div class="overlay">
+                    <h2>Already have an account?</h2>
+                    <button id="RBttn" class="Bttn" id="Register" onclick="loginUser(event)">Login</button>
+                </div>
+            </div>
+            <form action="">
+                <div class="login-form">
+                    <h1>REGISTER</h1>
+                    <label for="">Username:</label>
+                    <input type="text" class="text-fields">
+                    <label for="">Email:</label>
+                    <input type="text" class="text-fields">
+                    <label for="">Password:</label>
+                    <input type="password" class="text-fields">
+                    <input type="submit" value="REGISTER" class="Bttn" id="LBttn" onclick="registerUser()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function loginUser(event) {
+            event.preventDefault();
+            window.location.href = "index.html";
+        }
+
+        function registerUser() {
+            alert("Successfully Registered!");
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+
+</html>

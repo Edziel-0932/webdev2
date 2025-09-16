@@ -1,63 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="TutorialManagement.css" />
+<html lang="en">
 
-  </head>
-  <body>
-    <div class="tutorial-management">
-      <div class="div">
-        <div class="overlap">
-          <div class="navbar">
-            <div class="rectangle"></div>
-            <div class="text-wrapper">FAQ</div>
-            <div class="text-wrapper-2">Help</div>
-            <div class="text-wrapper-3">Contact</div>
-            <div class="text-wrapper-4">Home</div>
-          </div>
-          <div class="overlap-group">
-            <div class="ellipse"></div>
-            <div class="text-wrapper-5">Profile</div>
-          </div>
-          <div class="text-wrapper-6">E - Ways</div>
-        </div>
-        <img class="img" src="https://c.animaapp.com/mflphevw6ppVyl/img/rectangle-118.svg" />
-        <img class="rectangle-2" src="https://c.animaapp.com/mflphevw6ppVyl/img/rectangle-123.svg" />
-        <div class="overlap-2">
-          <div class="rectangle-3"></div>
-          <div class="rectangle-4"></div>
-          <div class="rectangle-5"></div>
-          <p class="what-to-do-with">What to do with electronics that contain<br />brass?</p>
-          <p class="brass-often-found-in">
-            Brass often found in connectors, plugs, and circuit boards.<br /><br />
-            Safety tips<br />Wear gloves and safety glasses when dismantling.<br />Don’t burn or melt brass at home
-            leave processing to recyclers.
-          </p>
-        </div>
-        <div class="overlap-3">
-          <div class="rectangle-6"></div>
-          <div class="rectangle-7"></div>
-          <div class="rectangle-8"></div>
-          <p class="p">What to do with electronics that contain<br />copper?</p>
-          <p class="copper-often-found">
-            Copper often found in&nbsp;&nbsp;Wires and cables. And circuit boards Transformers, motors, and coils.
-            Connectors and some plugs<br /><br />Safety tips<br />Use proper tools (wire strippers, pliers) when
-            recovering copper.<br />Don’t burn wires to remove insulation (it’s toxic).<br />Wear gloves to avoid cuts
-            from sharp wires or boards.
-          </p>
-        </div>
-        <div class="text-wrapper-7">Tutorial of Managing E-waste</div>
-        <div class="overlap-4">
-          <img class="rectangle-9" src="https://c.animaapp.com/mflphevw6ppVyl/img/rectangle-20.svg" />
-          <img
-            class="element"
-            src="https://c.animaapp.com/mflphevw6ppVyl/img/1c2497d1-6114-4519-8a47-01c594bddd2c-removebg-preview-2.png"
-          />
-          <div class="text-wrapper-8">Search E- Waste</div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial</title>
+  <link rel="stylesheet" href="tutorialmanagement.css">
+</head>
+
+<body>
+  <header>
+    <div class="Logo">E-Ways</div>
+
+    <nav>
+      <a href="maindashboard.html">Home</a>
+      <a href="tutorialmanagement.html">Tutorial</a>
+      <a href="marketplace.html">Market</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="help.html">Help</a>
+    </nav>
+
+    <div class="actions">
+      <div class="Profile"><a href="userprofile.html">Profile</a></div>
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h2>General Tutorials</h2>
+    <p>Browse our tutorials on managing and reducing electronic wastes, from sorting to recycling responsibly.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Get Started with Sorting</h3>
+        <p>Learn how to separate electronic wastes into categories such as plastics, metals, and reusable parts.</p>
+        <span class="tag">Sorting</span>
+      </div>
+
+      <div class="card">
+        <h3>Safe Dismantling Techniques</h3>
+        <p>Understand the safe way of dismantling devices while protecting yourself from toxic components.</p>
+        <span class="tag">Dismantling</span>
+      </div>
+
+      <div class="card">
+        <h3>Proper Storage Basics</h3>
+        <p>Discover how to store e-waste safely to avoid environmental hazards before recycling.</p>
+        <span class="tag">Storage</span>
+      </div>
+
+      <div class="card">
+        <h3>Recycling & Reuse</h3>
+        <p>Explore various recycling processes and how old electronics can be repurposed effectively.</p>
+        <span class="tag">Recycling</span>
+      </div>
+
+      <div class="card">
+        <h3>Community Collection Programs</h3>
+        <p>Learn how to set up or join community e-waste collection drives for responsible disposal.</p>
+        <span class="tag">Community</span>
       </div>
     </div>
-  </body>
+  </main>
+  </div>
+
+  <script>
+    function logout() {
+      sessionStorage.clear();
+      localStorage.clear();
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+
 </html>
