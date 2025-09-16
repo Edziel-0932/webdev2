@@ -1,0 +1,354 @@
+.main-dashboard {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.main-dashboard .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.main-dashboard .overlap {
+  position: absolute;
+  width: 160px;
+  height: 65px;
+  top: 31px;
+  left: 1283px;
+}
+
+.main-dashboard .ellipse {
+  position: absolute;
+  width: 61px;
+  height: 59px;
+  top: 1px;
+  left: 32px;
+  background-color: #70e72b;
+  border-radius: 30.5px / 29.5px;
+}
+
+.main-dashboard .text-wrapper {
+  position: absolute;
+  width: 160px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #297000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-dashboard .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 303px;
+  top: 125px;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(38, 251, 18, 1) 3%,
+    rgba(22, 149, 11, 1) 100%
+  );
+}
+
+.main-dashboard .overlap-2 {
+  position: absolute;
+  width: 959px;
+  height: 102px;
+  top: 66px;
+  left: 240px;
+}
+
+.main-dashboard .rectangle {
+  position: absolute;
+  width: 950px;
+  height: 85px;
+  top: 8px;
+  left: 9px;
+}
+
+.main-dashboard .element {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.main-dashboard .text-wrapper-2 {
+  position: absolute;
+  width: 330px;
+  top: 30px;
+  left: 114px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #9c9c9c;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-dashboard .search {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 26px;
+  left: 876px;
+}
+
+.main-dashboard .p {
+  position: absolute;
+  width: 617px;
+  top: 206px;
+  left: 469px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-dashboard .img {
+  position: absolute;
+  width: 373px;
+  height: 198px;
+  top: 541px;
+  left: 1007px;
+  object-fit: cover;
+}
+
+.main-dashboard .overlap-3 {
+  position: absolute;
+  width: 905px;
+  height: 414px;
+  top: 541px;
+  left: 58px;
+  background-image: url(https://c.animaapp.com/mfjvgpzv4SAP2V/img/rectangle-90.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main-dashboard .rectangle-2 {
+  position: absolute;
+  width: 185px;
+  height: 16px;
+  top: 378px;
+  left: 375px;
+  background-color: #b6b6b6;
+  border-radius: 25px;
+}
+
+.main-dashboard .ellipse-2 {
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 381px;
+  left: 543px;
+  background-color: #848484;
+  border-radius: 4.5px / 5px;
+}
+
+.main-dashboard .ellipse-3 {
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 381px;
+  left: 519px;
+  background-color: #848484;
+  border-radius: 4.5px / 5px;
+}
+
+.main-dashboard .ellipse-4 {
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 381px;
+  left: 387px;
+  background-color: #ffffff;
+  border-radius: 4.5px / 5px;
+}
+
+.main-dashboard .ellipse-5 {
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 381px;
+  left: 414px;
+  background-color: #848484;
+  border-radius: 4.5px / 5px;
+}
+
+.main-dashboard .ellipse-6 {
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 381px;
+  left: 441px;
+  background-color: #848484;
+  border-radius: 4.5px / 5px;
+}
+
+.main-dashboard .ellipse-7 {
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 381px;
+  left: 468px;
+  background-color: #848484;
+  border-radius: 4.5px / 5px;
+}
+
+.main-dashboard .ellipse-8 {
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 381px;
+  left: 495px;
+  background-color: #848484;
+  border-radius: 4.5px / 5px;
+}
+
+.main-dashboard .text-wrapper-3 {
+  position: absolute;
+  width: 189px;
+  top: 459px;
+  left: 79px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-dashboard .overlap-4 {
+  position: absolute;
+  width: 41px;
+  height: 51px;
+  top: 444px;
+  left: 1315px;
+}
+
+.main-dashboard .rectangle-3 {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 11px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.main-dashboard .text-wrapper-4 {
+  position: absolute;
+  width: 32px;
+  top: 11px;
+  left: 9px;
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-dashboard .rectangle-4 {
+  position: absolute;
+  width: 373px;
+  height: 198px;
+  top: 757px;
+  left: 1007px;
+  object-fit: cover;
+}
+
+.main-dashboard .text-wrapper-5 {
+  position: absolute;
+  width: 217px;
+  top: 38px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #297000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-dashboard .overlap-group-2 {
+  position: absolute;
+  width: 274px;
+  height: 65px;
+  top: 38px;
+  left: 807px;
+}
+
+.main-dashboard .text-wrapper-6 {
+  position: absolute;
+  width: 160px;
+  top: 0;
+  left: 114px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #297000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-dashboard .overlap-5 {
+  position: absolute;
+  width: 309px;
+  height: 65px;
+  top: 38px;
+  left: 469px;
+}
+
+.main-dashboard .text-wrapper-7 {
+  position: absolute;
+  width: 160px;
+  top: 0;
+  left: 149px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #297000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+:root {
+  --m3syslighton-surface: rgba(29, 27, 32, 1);
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,700,600|Joan:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}

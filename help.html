@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="stylesheet" href="hstyle.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="Logo">E-Ways</div>
+
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="help.html">Help</a>
+        </nav>
+
+        <div class="actions">
+            <div class="Profile"><a href="userprofile.html">Profile</a></div>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="help-hero">
+            <h1>How can we help?</h1>
+            <input type="text" placeholder="Search for answers...">
+        </section>
+
+        <section class="help-features">
+            <div class="feature-card">
+                <h3>EcoWaste Essentials</h3>
+                <p>Learn the basics of how to recycle and reduce e-waste.</p>
+                <a href="#">See all &gt;</a>
+            </div>
+            <div class="feature-card">
+                <h3>Good to Know</h3>
+                <p>Find helpful tips and guides for sustainable living.</p>
+                <a href="#">See all &gt;</a>
+            </div>
+        </section>
+
+        <section class="help-topics">
+            <h2>Common Topics</h2>
+            <div class="topics-grid">
+                <div>
+                    <h4>Getting Started</h4>
+                    <p>Learn how to get started with EcoWaste.</p>
+                    <a href="#">See all 10 articles &gt;</a>
+                </div>
+                <div>
+                    <h4>Recycling Guide</h4>
+                    <p>Step-by-step instructions on recycling e-waste.</p>
+                    <a href="#">See all 15 articles &gt;</a>
+                </div>
+                <div>
+                    <h4>EcoWaste Dashboard</h4>
+                    <p>Manage your recycling requests and progress.</p>
+                    <a href="#">See all 6 articles &gt;</a>
+                </div>
+                <div>
+                    <h4>FAQs</h4>
+                    <p>Answers to the most common questions.</p>
+                    <a href="faq.html">Go to FAQ &gt;</a>
+                </div>
+                <div>
+                    <h4>EcoWaste Releases</h4>
+                    <p>What’s new and improved in our system.</p>
+                    <a href="#">See all 8 articles &gt;</a>
+                </div>
+                <div>
+                    <h4>How To</h4>
+                    <p>Tips and tutorials for eco-friendly living.</p>
+                    <a href="#">See all guides &gt;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        function logout() {
+            sessionStorage.clear();
+            localStorage.clear();
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+
+</html>

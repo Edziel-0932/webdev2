@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="fstyle.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="Logo">E-Ways</div>
+
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="help.html">Help</a>
+        </nav>
+
+        <div class="actions">
+            <div class="Profile"><a href="userprofile.html">Profile</a></div>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="faq-title">Frequent Answers and Questions</h1>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <span class="icon">+</span>
+                <details>
+                    <summary>What is EcoWaste?</summary>
+                    <p>EcoWaste is a platform dedicated to managing and recycling e-waste responsibly.</p>
+                </details>
+            </div>
+
+            <div class="faq-item">
+                <span class="icon">+</span>
+                <details>
+                    <summary>How can I recycle my old gadgets?</summary>
+                    <p>You can drop them at our partner recycling centers or request a pickup online.</p>
+                </details>
+            </div>
+
+            <div class="faq-item">
+                <span class="icon">+</span>
+                <details>
+                    <summary>Is there a fee for recycling?</summary>
+                    <p>Nope! Recycling through EcoWaste is completely free of charge.</p>
+                </details>
+            </div>
+
+            <div class="faq-item">
+                <span class="icon">+</span>
+                <details>
+                    <summary>What happens to my e-waste after collection?</summary>
+                    <p>All items are sent to certified recycling facilities where they’re safely processed.</p>
+                </details>
+            </div>
+        </div>
+    </main>
+    <script>
+        function logout() {
+            sessionStorage.clear();
+            localStorage.clear();
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+
+</html>

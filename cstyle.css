@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    background: #f4fdf5;
+    color: #2e4e2e;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 12vh;
+    background: white;
+    border-bottom: 3px solid #b6e2b6;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.Logo {
+    color: #2e8b57;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e8b57;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #b6e2b6;
+    color: #1d3c1d;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.Profile {
+    width: 40px;
+    height: 40px;
+    background: #b6e2b6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2e4e2e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Profile:hover {
+    background: #2e8b57;
+    color: white;
+}
+
+body.contact {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    background: linear-gradient(135deg, #26ff12, #0a8d3c);
+    padding: 30px;
+    border-radius: 16px;
+    color: white;
+    min-width: 280px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 22px;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #d4ffda;
+}
+
+.contact-form {
+    flex: 2;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form label {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.contact-form button {
+    padding: 14px;
+    background: #26ff12;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #1ec20e;
+}
+
+.logout-btn {
+    background: #2e8b57;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: #1d3c1d;
+    color: #b6e2b6;
+}

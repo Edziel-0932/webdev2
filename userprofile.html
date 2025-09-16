@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="ustyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="Logo">E-Ways</div>
+
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="help.html">Help</a>
+        </nav>
+
+        <div class="actions">
+            <div class="Profile"><a href="userprofile.html">Profile</a></div>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </header>
+
+    <main class="profile-container">
+        <section class="profile-header">
+            <img src="https://via.placeholder.com/100" alt="User Avatar" class="avatar">
+            <div class="user-info">
+                <h2>Juan Dela Cruz</h2>
+                <p>🌍 Passionate about reducing e-waste and promoting eco-friendly living.
+                    Joined EcoWaste to inspire others and share recycling tips.</p>
+            </div>
+        </section>
+
+        <section class="profile-achievements">
+            <h3>Likes</h3>
+            <div class="badges">
+                <div class="badge">🏅 Eco Starter</div>
+                <div class="badge">🌱 Recycler</div>
+                <div class="badge">💡 Innovator</div>
+                <div class="badge">🔥 Eco Leader</div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        function logout() {
+            sessionStorage.clear();
+            localStorage.clear();
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+
+</html>
