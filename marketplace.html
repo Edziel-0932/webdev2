@@ -61,7 +61,32 @@
             </div>
         </div>
     </section>
+    <section class="market">
+        <h2>Marketplace</h2>
+        <button class="post-btn" onclick="openPostForm()">+ Post Your Item</button>
+    </section>
+
+    <div id="postModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePostForm()">&times;</span>
+            <h2>Post Your Item</h2>
+            <form>
+                <input type="text" placeholder="Item Name" required>
+                <textarea placeholder="Item Description" required></textarea>
+                <input type="text" placeholder="Contact No" required>
+                <input type="file" accept="image/*" required>
+                <button type="submit" class="submit-btn">Post Item</button>
+            </form>
+        </div>
+    </div>
+
     <script>
+        function openPostForm() {
+            document.getElementById("postModal").style.display = "block";
+        }
+        function closePostForm() {
+            document.getElementById("postModal").style.display = "none";
+        }
         function logout() {
             sessionStorage.clear();
             localStorage.clear();
